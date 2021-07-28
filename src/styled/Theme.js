@@ -7,7 +7,10 @@ const theme = {
         primaryColor: "#7F5AF0",
         secondaryColor: "#2CB67D",
     },
-    textSize: ["24px", "18px","14px"],
-
+    textSize: {
+        large: "3rem",
+        medium: "2rem",
+        normal:"1rem",
+    },
 }
 export default theme;
