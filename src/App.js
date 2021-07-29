@@ -1,6 +1,6 @@
 import { ThemeProvider,createGlobalStyle } from "styled-components";
 import Theme from "./styled/Theme";
-import {Navbar} from './components';
+import {Navbar, Footer} from './components';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
 function App() {
   const GlobalStyles = createGlobalStyle`
@@ -21,6 +21,7 @@ function App() {
       <GlobalStyles />
       <Route path="/"  />
       <Navbar />
+      <Footer />
     </ThemeProvider>
     </Router>
   );
